@@ -16,13 +16,78 @@ html, body, .header, .awesome-text, .second-section, .box-to-hold-box-and-text, 
 
 .header, .header-left, .box-to-hold-a-row-of-boxes, .i-am-a-call-to-action-box, .yet-another-bloody-box-but-this-should-have-gone-first {
     flex-direction:row;
+    justify-content:center;
 }
-.i-am-a-call-to-action-container, .i-am-a-call-to-action-box, .box-to-hold-a-row-of-boxes {
+html,/* body, */.header, .awesome-text, .second-section, .box-to-hold-box-and-text, .third-section, .i-am-a-box-for-text, .first-section, .fourth-section
+{
     align-items:center;
     
     
 }
-html, body, .i-am-a-call-to-action-box, .header-left, .first-section  
+#rando-info {
+    text-align:center;
+    align-self:center;
+    padding-bottom:60px;
+}
+.box-to-hold-a-row-of-boxes {
+    gap:8%;
+    flex:1;
+}
+.section-two-actual-row-box {
+    width:100px;
+    height: 10vh;
+    border:3px solid #3882F6;
+}
+
+.second-section {
+    width:60vw;
+}
+.quote-box {
+    width:80vw;
+    max-width:800px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:30px 0 50px 0;
+}
+#thor {
+    font-weight:bold;
+    flex-wrap: no-wrap;
+    padding-top:0;
+    padding-bottom:0;
+    text-align:right;
+    align-self:flex-end;
+}
+.quote-text {
+    padding-bottom:0;
+    padding-top:0;
+    margin-bottom:0;
+}
+
+.yet-another-bloody-box-but-this-should-have-gone-first, .i-am-a-call-to-action-container {
+    align-items:space-between;
+    width:70vw;
+}
+
+.awesome-text {
+    justify-content:flex-start;
+}
+
+.placeholder-box {
+    width:33vw;
+    height:150px;
+    background-color:gray;
+    align-self:center;
+}
+
+.first-section {
+    height:25%;
+    padding-bottom:10vh;
+    
+}
+
+html, body, .i-am-a-call-to-action-box, .header-left, .first-section 
 {
 justify-content:space-evenly;
 }
@@ -126,3 +191,4 @@ button.border {
 .fourth-section {
     padding:5%;
 }
+
